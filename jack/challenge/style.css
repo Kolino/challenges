@@ -1,0 +1,32 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+h3 {
+  color: green;
+}
+
+div {
+  width: auto;
+  border: 1px solid black;
+  margin: auto;
+}
+
+div > p {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.underline-italic {
+  text-decoration: underline;
+  font-style: italic;
+}
