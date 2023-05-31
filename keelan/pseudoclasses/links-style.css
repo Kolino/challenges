@@ -1,0 +1,23 @@
+/* TODO: this isn't working */
+/* Link unvisited */
+.styled-link:link {
+    color: blueviolet;
+}
+
+/* Link visited */
+.styled-link:visited {
+    color: green;
+}
+
+/* Mouse over link */
+.styled-link:hover {
+    color: red;
+    background-color: blue;
+}
+
+/* If this is above hover, it doesn't work */
+/* Select link */
+.styled-link:active {
+    color: blue;
+    background-color: red;
+}
