@@ -1,0 +1,55 @@
+.header {
+  border: 3px dashed green;
+}
+.header--coral-border {
+  border: 2px solid coral;
+}
+.header--bottom-margin {
+  margin-bottom: 100px;
+}
+
+.para--blue-dash {
+  color: blue;
+  text-decoration: line-through;
+}
+.para--align-right {
+  text-align: right;
+}
+.para--coral {
+  color: coral;
+}
+.para--bold {
+  font-weight: bold;
+}
+.para--brown {
+  color: brown;
+}
+.para--red {
+  color: red;
+}
+.para--underlined {
+  text-decoration: underline;
+}
+.para--arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+  border: 2px solid black;
+}
+
+.head--blue {
+  color: blue;
+}
+.head--arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head--center {
+  text-align: center;
+}
+
+.ul-list {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

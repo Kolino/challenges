@@ -1,0 +1,58 @@
+.header {
+    border: 3px dashed green;
+    &--coral-border {
+        border: 2px solid coral;
+    }
+    &--bottom-margin {
+        margin-bottom: 100px;
+    }
+}
+
+.para {
+    &--blue-dash {
+        color: blue;
+        text-decoration: line-through;
+    }
+    &--align-right {
+        text-align: right;
+    }
+    &--coral {
+        color: coral;
+    }
+    &--bold {
+        font-weight: bold;
+    }
+    &--brown {
+        color: brown;
+    }
+    &--red {
+        color: red;
+    }
+    &--underlined {
+        text-decoration: underline;
+    }
+    &--arial {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.section {
+    border: 2px solid black;
+}
+
+.head {
+    &--blue {
+        color: blue;
+    }
+    &--arial {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    &--center {
+        text-align: center;
+    }
+}
+
+.ul-list {
+    list-style: none;
+}
+
