@@ -1,0 +1,67 @@
+main {
+    width: 600px;
+    /* TODO */
+    height: 600px;
+    border: 4px solid black;
+    padding: 12px 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rowContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#columnContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* TODO */
+    padding-top: 24px;
+}
+
+#blueCard {
+    background-color: lightskyblue;
+}
+
+#lightBlueCard {
+    background-color: lightblue;
+}
+
+#greyCard {
+    background-color: lightgrey;
+}
+
+#pinkCard {
+    background-color: palevioletred;
+}
+
+#orangeCard {
+    background-color: orange;
+}
+
+#greenCard {
+    background-color: greenyellow;
+}
+
+#crimsonCard {
+    background-color: crimson;
+}
+
+#cornflowerBlueCard {
+    background-color: cornflowerblue;
+}
