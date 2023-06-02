@@ -8,7 +8,7 @@
     &--red-border-dashed {
         margin-top: 10px;
         @include m.style-button(center, Arial, bold);
-        @include m.border(1px, solid, red);
+        @include m.border(1px, dashed, red);
     }
     &--blue-border-solid {
         margin-top: 30px;

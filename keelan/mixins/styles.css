@@ -6,7 +6,7 @@
   text-align: center;
   font-family: Arial;
   font-weight: bold;
-  border: 1px solid red;
+  border: 1px dashed red;
 }
 .btn--blue-border-solid {
   margin-top: 30px;
