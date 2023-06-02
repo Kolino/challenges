@@ -1,0 +1,9 @@
+@mixin border($pixels: 1, $style: solid, $color: black) {
+    border: $pixels $style $color;
+}
+
+@mixin style-button($text-align: center, $font-family: arial, $font-weight: bold) {
+    text-align: $text-align;
+    font-family: $font-family;
+    font-weight: $font-weight;
+}

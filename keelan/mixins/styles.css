@@ -1,0 +1,26 @@
+.btn {
+  width: 80%;
+}
+.btn--red-border-dashed {
+  margin-top: 10px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  border: 1px solid red;
+}
+.btn--blue-border-solid {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+.btn--blue-border-dashed {
+  margin-top: 30px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  border: 1px dashed blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
