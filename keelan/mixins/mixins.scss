@@ -2,7 +2,7 @@
     border: $pixels $style $color;
 }
 
-@mixin style-button($text-align: center, $font-family: arial, $font-weight: bold) {
+@mixin style-button($text-align: center, $font-family: Arial, $font-weight: bold) {
     text-align: $text-align;
     font-family: $font-family;
     font-weight: $font-weight;
