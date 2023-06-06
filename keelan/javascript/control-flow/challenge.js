@@ -88,4 +88,17 @@ for (let i = 0; i < 2; i++) {
 if (!hit) console.log("Invalid input");
 
 // Bonus part
-// TODO
+const childEyeColour = "red";
+switch (childEyeColour) {
+    case "green":
+        console.log("Green is my favourite eye colour");
+        break;
+    case "blue": 
+        console.log("Blue is my 2nd favourite eye colour");
+        break;
+    case "brown":
+        console.log("Brown is my least favourite eye colour");
+        break;
+    default:
+        console.log("Invalid input");
+}
