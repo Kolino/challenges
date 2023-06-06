@@ -46,6 +46,8 @@ switch (currentDay) {
 // Part 4 - Eye colour
 let parent1 = "brown", parent2 = "blue";
 let hit = false;
+// Variable for bonus challenge
+let childEyeColour = "";
 // Tries with current configuration of parent1 and parent2 before trying with them swapped
 // If no hits, then input is invalid
 // There's no need to break since only 1 set will ever trigger
@@ -54,31 +56,37 @@ for (let i = 0; i < 2; i++) {
     if (parent1 === "brown" && parent2 === "brown") {
         console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is 6.25%, brown is 75% and green is 18.75%`);
         hit = true;
+        childEyeColour = "brown";
     }
     // Green + brown
     else if (parent1 === "green" && parent2 === "brown") {
         console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is 12.5%, brown is 50% and green is 37.5%`);
         hit = true;
+        childEyeColour = "brown";
     }
     // Blue + brown
     else if (parent1 === "blue" && parent2 === "brown") {
         console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is 50%, brown is 50% and green is 0%`);
         hit = true;
+        childEyeColour = "blue";
     }
     // Green + green
     else if (parent1 === "green" && parent2 === "green") {
         console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is 25%, brown is <1% and green is 75%`);
         hit = true;
+        childEyeColour = "green";
     }
     // Green + blue
     else if (parent1 === "green" && parent2 === "blue") {
         console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is 50%, brown is 0% and green is 50%`);
         hit = true;
+        childEyeColour = "green";
     }
     // Blue + blue
     else if (parent1 === "blue" && parent2 === "blue") {
         console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is 99%, brown is 0% and green is 1%`);
         hit = true;
+        childEyeColour = "blue";
     }
     // Swapping variables' values before next/last iteration
     const temp = parent1;
@@ -88,7 +96,6 @@ for (let i = 0; i < 2; i++) {
 if (!hit) console.log("Invalid input");
 
 // Bonus part
-const childEyeColour = "red";
 switch (childEyeColour) {
     case "green":
         console.log("Green is my favourite eye colour");
