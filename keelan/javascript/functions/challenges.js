@@ -33,7 +33,7 @@ console.log(remainder(-9, 45)); // -9
 console.log(remainder(5, 5)); // 0
 
 // Basketball Points
-const basketballPoints = (twoPointers, threePointers) => twoPointers + threePointers;
+const basketballPoints = (twoPointers, threePointers) => twoPointers * 2 + threePointers * 3;
 
 // Less Than 100?
 const lessThan100 = (num1, num2) => num1 + num2 < 100;
