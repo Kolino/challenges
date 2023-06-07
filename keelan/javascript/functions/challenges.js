@@ -3,7 +3,7 @@ const moonOrbits = numEarthDays => {
     const numEarthDaysToOrbit = 27;
 
     return numEarthDays / numEarthDaysToOrbit;
-}
+};
 
 console.log(moonOrbits(54));
 console.log(moonOrbits(365));
