@@ -55,7 +55,6 @@ const checkVowel = (currChar, nextChar) => {
     return true;
 }
 
-// Checking the first char 
 const removeVowels = str => {
     let retStr = "";
 
