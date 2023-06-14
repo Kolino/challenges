@@ -25,4 +25,4 @@ console.log(numsArr.reduce((accum, currVal) => {
     accum.push(currVal ** 2);
 
     return accum;
-}, []))
+}, []));
